@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Currency Converter</h1>
+
+        <div class="amount-box">
+            <input type="number" id="amount" placeholder="Enter amount">
+        </div>
+
+        <div class="currency-row">
+            <div class="from">
+                <img id="fromflag" src="https://flagsapi.com/US/flat/64.png">
+                <select name="from"></select>
+            </div>
+
+            <button id="swap">⇄</button>
+
+            <div class="to">
+                <img id="toflag" src="https://flagsapi.com/IN/flat/64.png">
+                <select name="to"></select>
+            </div>
+        </div>
+        <div class="rate-msg" id="ratemsg"></div>
+        <button id="convertbtn">CONVERT</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
